@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+
+h1 {
+  border-bottom: 1px solid;  
+  @apply text-3xl font-semibold font-mono border-purple-300 inline-block my-4 clear-both;
+}
+
+h1::before {
+  content: "#";
+  @apply text-xl font-hairline text-purple-300 mr-4;
+}
+
+body {
+  @apply bg-gray-900;
+}
+
+.btn-blue {
+  @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+}
+
+.title {
+  @apply text-5xl text-center;
+  color: #333;
+  line-height: 1.15;
+}
+
+@tailwind utilities;
