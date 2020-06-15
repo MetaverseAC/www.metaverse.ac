@@ -3,6 +3,7 @@ import Link from 'next/link'
 const links = [
   { href: 'http://discord.metaverse.ac', label: 'Discord' },
   { href: 'https://github.com/MetaverseAC', label: 'GitHub' },
+  { href: 'http://status.metaverse.ac', label: 'Status' },
 ]
 
 export default function Nav() {
