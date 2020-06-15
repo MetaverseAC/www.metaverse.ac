@@ -2,14 +2,15 @@ import Nav from '../components/nav'
 
 export default class IndexPage extends React.Component{
   CmonDoSomething() {
-    this.refs.logo.classList.toggle("something")
+    this.refs.logo.classList.toggle("something");
+    this.refs.logo.classList.toggle("blur");
   }
 
   render() {
     return (
       <div className="">
-        <div className="mx-auto container text-gray-100 font-serif text-lg transform ">
-          <img ref="logo" className="mx-auto w-2/5 transition duration-1000 transform ease-in-out hover:scale-110 hover:rotate-180"
+        <div className="mx-auto container text-gray-100 font-serif text-lg transform">
+          <img ref="logo" className="mx-auto w-2/5 transition duration-1000 transform ease-in-out hover:scale-110 hover:rotate-180 something"
             src="/metaverse_globe.png" alt="Metaverse Globe Logo"
             onClick={this.CmonDoSomething.bind(this)} />
           <div className="text-center font-mono text-gray-800 text-5xl">

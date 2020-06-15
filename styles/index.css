@@ -2,7 +2,10 @@
 @tailwind components;
 
 .something {
-  filter: blur(1px) brightness(.90) grayscale(.7);
+  filter: brightness(.90) grayscale(.7);
+}
+.blur{
+  filter: blur(1.1px);
 }
 
 span{
