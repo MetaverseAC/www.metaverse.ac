@@ -1,6 +1,10 @@
 @tailwind base;
 @tailwind components;
 
+.something {
+  filter: blur(1px) brightness(.90) grayscale(.7);
+}
+
 span{
   @apply text-gray-500;
 }
