@@ -12,12 +12,28 @@ export default function IndexPage() {
           </div>
         </div>
         <Nav/>
-        <h1>
-          Header
-        </h1>
-        <p>
-          I was told I need a website - Here it is.
-        </p>
+        <h1>About</h1>
+        <p>Metaverse is free hosting service for developers of the Asheron's Call community.</p>
+        <p>Currently offer</p>
+        <ul className="yellow-bulleted">
+          <li>
+            Public Test Server: <span>General purpose, easy admin access to vanilla ACE world (typically testing Metas and Decal plugins)</span>
+          </li>
+          <li>
+            Content Development Servers: <span>Private Virtual ACE Content servers with SQL and File access</span>
+          </li>
+          <li>
+            Pull Request Server: <span>Bot controlled automation deploys public server with ACE pull request changes</span>
+          </li>
+          <li>
+            Ad-Hoc Hosting: <span>Supporting community with container based hosting like <a href="https://gitlab.com/trevis/achelperbot">@ACHelperBot</a></span>
+          </li>
+          <li>
+            <a href="https://github.com/MetaverseAC/DiscordBot">Discord Bot</a>: <span>Spawns and updates servers, manages roles</span>
+          </li>
+        </ul>
+        <p>Access to all of these services is coordinated through <a href="http://discord.metaverse.ac">discord</a>.</p>
+        <p>Created by <a href="https://discord.com/users/115195745782464512">@deca</a> (feel free to DM).</p>
       </div>
     </div>
   )

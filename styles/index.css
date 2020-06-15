@@ -1,6 +1,27 @@
 @tailwind base;
 @tailwind components;
 
+span{
+  @apply text-gray-500;
+}
+
+p {
+  @apply py-2;
+}
+
+.yellow-bulleted li::before { 
+  content: "-";
+  @apply text-yellow-500 mx-2;
+}
+
+a {
+  @apply text-yellow-500 text-xl border-b border-yellow-300;
+}
+
+a:hover{
+  @apply text-gray-100 border-opacity-50
+}
+
 h1 {
   border-bottom: 1px solid;  
   @apply text-3xl font-semibold font-mono border-purple-300 inline-block my-4 clear-both;
